@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  num : number;
+  name : string;
+  score[] = [
+    {num : 0,name:''}
+  ]
 }
