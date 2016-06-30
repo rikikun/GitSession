@@ -1,4 +1,13 @@
 <h1>
   {{title}}
 </h1>
-<input [(ngModel)] = "" value=""/>
+
+<div *ngIf="score">
+<input [(ngModel)] = "num">
+<label>score: {{c1}}</label>
+
+<input [(ngModel)] = "num2">
+<label>score: {{c2}}</label>
+
+<button (click)="aaa()">cilck</button>
+</div>
