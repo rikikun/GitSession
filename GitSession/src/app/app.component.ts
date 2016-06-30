@@ -11,6 +11,10 @@ export class AppComponent {
   num : number;
   name : string;
   score[] = [
-    {num : 0,name:''}
-  ]
+    {num : 0,name:'love'},
+    {num : 1,name:'15'},
+    {num : 2,name:'30'},
+    {num : 3,name:'40'},
+    {num : 4,name:'game'}
+  ];
 }
