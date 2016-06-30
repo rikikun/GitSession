@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'app works!';
   num : number;
   name : string;
-  score[] = [
+  score = [
     {num : 0,name:'love'},
     {num : 1,nammme:'15'},
     {num : 2,name:'30'},
